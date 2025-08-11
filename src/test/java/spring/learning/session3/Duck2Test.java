@@ -7,9 +7,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class Duck2Test {
 
     @Test
-    void testNoArgsConstructor(){
+    void testNoArgsConstructor() {
         Duck2 duck = new Duck2();
-        assertEquals(27,duck.size);
+        assertEquals(27, duck.size);
     }
 
 }
