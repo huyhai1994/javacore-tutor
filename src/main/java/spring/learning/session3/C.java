@@ -6,7 +6,6 @@ public class C {
 
     public C() {
         System.out.println("C's no-arg constructor invoked");
-        this(0); // wrong order -> Java requires that the this (arg-list) statement appear first in the constructor before any other executable statements.
     }
 
     public C(int p) {
