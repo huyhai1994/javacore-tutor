@@ -34,10 +34,15 @@ public class AnimalController {
      * </ol>
      * <p>This pattern maintains both flexibility (accepts any IAnimal subtype) and type safety (preserves the exact list type).</p>
      *
-     * @param <T> type parameter that extends IAnimal
+     * @param <T>     type parameter that extends IAnimal
      * @param animals the list of animals to process
      */
+/*
     public static <T extends IAnimal> void fetchAnimal(List<T> animals) {
+        animals.forEach(IAnimal::makenoise);
+    }
+*/
+    public static void fetchAnimal(List<? extends IAnimal> animals) {
         animals.forEach(IAnimal::makenoise);
     }
 }
