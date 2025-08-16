@@ -1,10 +1,9 @@
 package spring.learning.session4.some_interface;
 
-public class Dog implements IAnimal {
+public class Cat implements IAnimal {
     @Override
     public void makenoise() {
-        System.out.println("Gâu Gâu!!!");
-
+        System.out.println("meow meow!!!");
     }
 
     @Override

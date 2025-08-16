@@ -14,6 +14,11 @@ class SuperSub extends SuperTest {
         System.out.println("This is sub class, object is created");
     }
 
+    @Override
+    void printSomeThing() {
+        System.out.println("This is super sub print go brrrr!");
+    }
+
     void superSubPrint() {
         System.out.println("This is super sub class!");
     }
