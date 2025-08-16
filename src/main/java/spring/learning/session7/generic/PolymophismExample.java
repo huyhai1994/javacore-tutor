@@ -6,6 +6,7 @@ import java.util.List;
 
 public class PolymophismExample {
     public static void main(String[] args) {
+        //@TODO: read this article...
       // [Polymorphism: Why use List\<List\> new ArrayList\<> instead of ArrayList\<List\> new ArrayList\<>?](https://stackoverflow.com/questions/9852831/polymorphism-why-use-list-list-new-arraylist-instead-of-arraylist-list-n)
         // Create lists with different implementations
         List<String> arrayList = new ArrayList<>();
