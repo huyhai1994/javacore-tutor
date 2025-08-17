@@ -1,7 +1,7 @@
 package spring.learning.session7.stream_api;
 
-import java.util.Collections;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Jukebox2 {
     public static void main(String[] args) {
@@ -11,11 +11,9 @@ public class Jukebox2 {
 
     public void go() {
         List<SongV2> songList = MockSongs.getSongV2();
-        System.out.println(songList);
-        Collections.sort(songList);
-        System.out.println(songList);
-        // static <T extends Comparable<? super T>> void sort (List <T> list)
-        // static void sort (List<T extends Comparable<? super T>> list);
+        Stream<SongV2> songStream = songList.stream();
+        List<String> songName = songStream.map(SongV2::getTitle).toList();
+        System.out.println(songName);
     }
 
 }
