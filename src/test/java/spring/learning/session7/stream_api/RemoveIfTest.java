@@ -1,4 +1,4 @@
-package spring.learning.session7;
+package spring.learning.session7.stream_api;
 
 import org.junit.jupiter.api.Test;
 import spring.learning.session7.lambda.Mountain;
