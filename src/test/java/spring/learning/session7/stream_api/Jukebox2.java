@@ -12,7 +12,11 @@ public class Jukebox2 {
     public void go() {
         List<SongV2> songList = MockSongs.getSongV2();
         Stream<SongV2> songStream = songList.stream();
-        List<String> songName = songStream.map(SongV2::getTitle).toList();
+        List<String> songName = songStream
+                .map(SongV2::getTitle)
+                .sorted()
+                .limit(1)
+                .toList();
         System.out.println(songName);
     }
 
