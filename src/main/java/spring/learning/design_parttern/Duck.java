@@ -16,6 +16,7 @@ class MallardDuck extends Duck {
     @Override
     public void display() {
         System.out.println("I look like a Mallard!");
+        System.out.println("I look like a Mallard2!");
     }
 }
 
