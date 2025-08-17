@@ -1,6 +1,5 @@
 package spring.learning.session7.stream_api;
 
-import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
