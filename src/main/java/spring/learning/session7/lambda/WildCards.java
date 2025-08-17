@@ -1,4 +1,4 @@
-package spring.learning.session7;
+package spring.learning.session7.lambda;
 
 import spring.learning.session4.some_interface.IAnimal;
 

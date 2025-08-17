@@ -19,5 +19,4 @@ public class Jukebox2 {
                 .toList();
         System.out.println(songName);
     }
-
 }
