@@ -884,6 +884,7 @@ public class MockSongs {
         songs.add(new SongV2("We Found Love", "Rihanna feat. Calvin Harris", 128));
         songs.add(new SongV2("Diamonds", "Rihanna", 92));
         songs.add(new SongV2("Work", "Rihanna feat. Drake", 92));
+        System.out.println(songs.size());
         return songs;
     }
 }

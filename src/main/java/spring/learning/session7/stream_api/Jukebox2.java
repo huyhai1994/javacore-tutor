@@ -45,10 +45,9 @@ public class Jukebox2 {
 
     public String findOneSong(String songTitle) throws CustomException {
         List<SongV2> songList = MockSongs.getSongV2();
-        return songList.stream()
+        return songList.parallelStream()
                 .map(SongV2::getTitle)
                 .filter(t -> t.contains(songTitle))
-                .findFirst()
-                .orElseThrow(() -> new CustomException("Not found Song"));
+                .findFirst().orElseThrow(() -> new CustomException("Not found Song"));
     }
 }
