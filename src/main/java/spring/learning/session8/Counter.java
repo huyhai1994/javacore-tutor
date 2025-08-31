@@ -1,10 +1,11 @@
 package spring.learning.session8;
 
-public class Counter {
-    private static int number;
+import java.util.concurrent.atomic.AtomicInteger;
 
-    public synchronized int incrementCounter() {
-        number++;
-        return number;
+public class Counter {
+    private static final AtomicInteger number = new AtomicInteger(0);
+
+    public int incrementCounter() {
+        return number.incrementAndGet();
     }
 }
