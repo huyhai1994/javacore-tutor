@@ -17,12 +17,14 @@ public class RyanAndMonicaJob implements Runnable {
     }
 
     private void goShopping(int amountToSpend) {
-        if (bankAccount.getBalance() >= amountToSpend) {
-            System.out.println(name + " is about to spend " + Thread.currentThread().getName());
-            bankAccount.spend(amountToSpend);
-            System.out.println(name + " finishes spending" + " remaining account " + bankAccount.getBalance());
-        } else {
-            System.out.println("Sorry, not enough for " + name);
+        synchronized (bankAccount) {
+            if (bankAccount.getBalance() >= amountToSpend) {
+                System.out.println(name + " is about to spend " + Thread.currentThread().getName());
+                bankAccount.spend(amountToSpend);
+                System.out.println(name + " finishes spending" + " remaining account " + bankAccount.getBalance());
+            } else {
+                System.out.println("Sorry, not enough for " + name);
+            }
         }
     }
 
