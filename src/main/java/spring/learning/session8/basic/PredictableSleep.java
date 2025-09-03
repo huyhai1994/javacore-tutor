@@ -1,22 +1,20 @@
-package spring.learning.session8;
+package spring.learning.session8.basic;
 
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
-public class PredictableLatch {
+public class PredictableSleep {
     public static void main(String[] args) {
         ExecutorService executor = Executors.newSingleThreadExecutor();
-        CountDownLatch latch = new CountDownLatch(1);
-        executor.execute(() -> waitForLatchThenPrint(latch));
+        executor.execute(PredictableSleep::sleepThenPrint);
         System.out.println("back in main");
-        latch.countDown();
         executor.shutdown();
     }
 
-    private static void waitForLatchThenPrint(CountDownLatch latch) {
+    private static void sleepThenPrint() {
         try {
-            latch.await();
+            TimeUnit.SECONDS.sleep(2); // Calling sleep here will force the new thread to leave the currently running state. The main thread will get a chance to pring out "back in main"
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

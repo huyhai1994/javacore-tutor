@@ -1,4 +1,4 @@
-package spring.learning.session8;
+package spring.learning.session8.basic;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
