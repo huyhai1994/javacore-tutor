@@ -28,7 +28,7 @@ public class LostUpdate {
 class Balance {
     int balance = 0;
 
-    public  void increment() {
+    public synchronized void increment() {
         System.out.println("current Thread: " + Thread.currentThread().getName());
         balance++;
     }
