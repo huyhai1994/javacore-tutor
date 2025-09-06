@@ -1,0 +1,359 @@
+{
+  "timestamp": "2025-08-25T13:11:29.806+00:00",
+  "success": true,
+  "status": 1,
+  "message": "get success",
+  "body": {
+    "userKey": "UID_fdc8b192-12d5-46f7-b74f-3e71531d76cf",
+    "totalBriefingPages": 0,
+    "totalBriefingPagesPinned": 0,
+    "currentPage": 0,
+    "recommendationList": [
+      {
+        "userProfile": {
+          "lastName": "sinee00",
+          "imageUrl": "https://dzh91b51qfr7r.cloudfront.net/profile/null",
+          "userKey": "UID_890933ad-89c7-4727-8d61-be95f327fd84"
+        },
+        "privacy": "PUBLIC",
+        "listDocumentFeatured": [
+          {
+            "documentType": "REPORT",
+            "parentDocDetail": {
+              "_id": "102-N8715228480311772211",
+              "_ml_keyword": "",
+              "_ml_summary": "",
+              "briefing_page_id": [
+                "BPID_b7f65283-525e-4f7c-b81b-e390b2959dae"
+              ],
+              "created_at": "20250825091250",
+              "doc_type": 4.0,
+              "image_uri_thumbnail": "https://dqrvsa6iqgtew.cloudfront.net/report-image-prod/2025-08/9144e8bf-adc0-4e63-b2f9-2b5defcd8dfc.jpg",
+              "is_deleted": false,
+              "is_group": false,
+              "is_inside_group": false,
+              "media_type": [
+                "REPORT",
+                "DAILY"
+              ],
+              "modified_at": "20250825091251",
+              "parent_doc_id": [
+                "go-public-report-en-3291c5f5-32e7-47a2-b6cb-65e4080af991-0-0"
+              ],
+              "published_at": "20250825091250",
+              "search_type": [
+                "REPORT"
+              ],
+              "service_language": "ENGLISH",
+              "similar_hash": "-57205032841",
+              "source_summary": "As of August 25, 2025, the technological landscape is characterized by the rapid integration of Artificial Intelligence (AI), evolving educational requirements, and cross-sector innovations. AI is not just reshaping traditional career pathways but also redefining the skill sets that are essential for future employment. Professionals and educators must navigate a field where novel AI-driven roles, such as 'Virtual Pet Therapist' and 'Algorithm Bias Auditor,' are emerging in response to advancements in machine learning and ethical considerations. Organizations are also making strides toward incorporating AI ethics into their practices, reflecting a growing awareness of the implications of automated decision-making systems. These developments signal a shift toward roles that blend human insight with machine capabilities, emphasizing creativity, emotional intelligence, and ethical judgment.",
+              "source_uri": "https://goover.ai/report-detail/go-public-report-en-3291c5f5-32e7-47a2-b6cb-65e4080af991-0-0",
+              "source_uri_domain": "go-public-report-en-3291c5f5-32e7-47a2-b6cb-65e4080af991-0-0",
+              "title": "Navigating the 2025 Tech Ecosystem: AI, Engineering, and Industry Innovations",
+              "user_key": "UID_890933ad-89c7-4727-8d61-be95f327fd84",
+              "writer": [
+                "Goover"
+              ],
+              "owner_user_key": "UID_890933ad-89c7-4727-8d61-be95f327fd84",
+              "collected_quality": 1.0,
+              "private_type": "PUBLIC",
+              "acl_role": [
+                "PUBLIC"
+              ],
+              "request_id": "schedule_report_1066001_922c3cbf-5128-4cd3-8f04-dcf25b6ac383",
+              "html_raw_size": 66939.0,
+              "text_size": 38117.0
+            },
+            "requestId": "schedule_report_1066001_922c3cbf-5128-4cd3-8f04-dcf25b6ac383",
+            "_id": "102-N8715228480311772211",
+            "user_key": "UID_890933ad-89c7-4727-8d61-be95f327fd84",
+            "briefing_page_id": "BPID_b7f65283-525e-4f7c-b81b-e390b2959dae",
+            "published_at": "2025-08-25T09:12:50.000+00:00"
+          },
+          {
+            "documentType": "REPORT",
+            "parentDocDetail": {
+              "_id": "102-1367338326068872775",
+              "_ml_keyword": "",
+              "_ml_summary": "",
+              "briefing_page_id": [
+                "BPID_b7f65283-525e-4f7c-b81b-e390b2959dae"
+              ],
+              "created_at": "20250815091243",
+              "doc_type": 4.0,
+              "image_uri_thumbnail": "https://dqrvsa6iqgtew.cloudfront.net/report-image-prod/2025-07/45539bc6-fa3e-4ef2-bed5-fc30dc1babbb.jpg",
+              "is_deleted": false,
+              "is_group": false,
+              "is_inside_group": false,
+              "media_type": [
+                "REPORT",
+                "DAILY"
+              ],
+              "modified_at": "20250815091244",
+              "parent_doc_id": [
+                "go-public-report-en-06001b33-a959-42f3-93b6-8067be2999b9-0-0"
+              ],
+              "published_at": "20250815091243",
+              "search_type": [
+                "REPORT"
+              ],
+              "service_language": "ENGLISH",
+              "similar_hash": "54597666331",
+              "source_summary": "As of August 15, 2025, the automotive design engineering sector stands at a pivotal intersection characterized by the integration of cutting-edge software, artificial intelligence, and next-generation hardware. This landscape has transitioned significantly from traditional computer-aided design (CAD) workflows to the era of AI-native engineering, fueled by the advent of generative AI and multi-model orchestration. These advancements are fostering a more agile development environment, allowing engineers to create, iterate, and validate designs with unprecedented speed and efficiency. Notably, key technologies shaping the future of vehicles include Advanced Driver Assistance Systems (ADAS), autonomous driving platforms, lidar sensors, and the promising potentials of quantum computing. The ongoing digital transformation driven by Industry 4.0 is now evolving into Industry 5.0, which emphasizes human-centered automation and collaboration, thus reflecting a holistic approach to manufacturing that prioritizes both innovation and workforce engagement. Coupled with this technological progression, the need for re-skilling initiatives has become paramount for design engineers as they adapt to the evolving landscape. Additionally, organizations are exploring strategies for more effective integration of HR and IT functions, essential for maintaining competitiveness in an increasingly technological marketplace. This synthesis of insights creates a comprehensive roadmap for professionals navigating the complexities of contemporary automotive design engineering, underscoring the interdependencies of technology and human capability.",
+              "source_uri": "https://goover.ai/report-detail/go-public-report-en-06001b33-a959-42f3-93b6-8067be2999b9-0-0",
+              "source_uri_domain": "go-public-report-en-06001b33-a959-42f3-93b6-8067be2999b9-0-0",
+              "title": "Navigating the AI-Driven Transformation in Automotive Design Engineering",
+              "user_key": "UID_890933ad-89c7-4727-8d61-be95f327fd84",
+              "writer": [
+                "Goover"
+              ],
+              "owner_user_key": "UID_890933ad-89c7-4727-8d61-be95f327fd84",
+              "collected_quality": 1.0,
+              "private_type": "PUBLIC",
+              "acl_role": [
+                "PUBLIC"
+              ],
+              "request_id": "schedule_report_1066000_4a5fc87e-ad95-4035-9155-05909c34ab0c",
+              "html_raw_size": 59852.0,
+              "text_size": 36508.0
+            },
+            "requestId": "schedule_report_1066000_4a5fc87e-ad95-4035-9155-05909c34ab0c",
+            "_id": "102-1367338326068872775",
+            "user_key": "UID_890933ad-89c7-4727-8d61-be95f327fd84",
+            "briefing_page_id": "BPID_b7f65283-525e-4f7c-b81b-e390b2959dae",
+            "published_at": "2025-08-15T09:12:43.000+00:00"
+          },
+          {
+            "documentType": "DISCOVERY",
+            "parentDocDetail": {
+              "_id": "83-4761043839557021724",
+              "_ml_keyword": "",
+              "_ml_summary": "",
+              "briefing_page_id": [
+                "BPID_b7f65283-525e-4f7c-b81b-e390b2959dae"
+              ],
+              "created_at": "20250803021556",
+              "doc_type": 2.0,
+              "image_uri_thumbnail": "https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0",
+              "is_deleted": false,
+              "is_group": false,
+              "is_inside_group": false,
+              "media_type": [
+                "WEB"
+              ],
+              "modified_at": "20250803021556",
+              "parent_doc_id": [
+                "go-public-web-eng-4286046692633386055-0-0"
+              ],
+              "published_at": "20250802222039",
+              "search_type": [
+                "WEB"
+              ],
+              "service_language": "ENGLISH",
+              "similar_hash": "2828897745775929691",
+              "source_summary": "Our hypothesis was that excess caloric intake from alcoholic beverages would lead to weight gain ... food and non-alcoholic beverage intake during a 24 ...",
+              "source_uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7286110/",
+              "source_uri_domain": "",
+              "title": "A prospective study of alcohol use patterns and short-term weight change in college freshmen - PMC",
+              "user_key": "UID_890933ad-89c7-4727-8d61-be95f327fd84",
+              "writer": [
+                ""
+              ],
+              "owner_user_key": "PUBLIC",
+              "collected_quality": 1.0,
+              "isBatchData": true,
+              "collector": "MS"
+            },
+            "_id": "83-4761043839557021724",
+            "user_key": "UID_890933ad-89c7-4727-8d61-be95f327fd84",
+            "briefing_page_id": "BPID_b7f65283-525e-4f7c-b81b-e390b2959dae",
+            "published_at": "2025-08-02T22:20:39.000+00:00"
+          }
+        ],
+        "bpId": "BPID_b7f65283-525e-4f7c-b81b-e390b2959dae",
+        "briefingPageName": "Success Stories of Non-Majors in Hyundai Motor's Design Engineering Department",
+        "bpType": "BRIEFING_PAGE",
+        "status": "ENABLED",
+        "modifyDate": "2025-08-25T09:12:50.553+00:00",
+        "createdDate": "2025-07-31T08:57:51.236+00:00",
+        "imageUri": "https://dzh91b51qfr7r.cloudfront.net/screen-shot-bp/BPID_b7f65283-525e-4f7c-b81b-e390b2959dae.png",
+        "subscribeCount": 0,
+        "subscribeStatus": "UN_SUBSCRIBE",
+        "briefingDescription": "This report presents a detailed analysis of successful cases of non-major applicants who secured employment as design engineers in Hyundai Motor's design department after completing coding boot camps. It explores several individuals' unique pathways, highlighting their past experiences, the impact of boot camp training, and their motivations for pursuing a career in automotive design. Key success factors identified include a practical curriculum, effective mentorship, strong self-directed learning attitudes, networking opportunities, and adaptability to industry needs. The report concludes that non-majors can achieve a competitive edge in the automotive sector through targeted training and a proactive approach to skill development."
+      },
+      {
+        "userProfile": {
+          "lastName": "김가은",
+          "imageUrl": "https://dzh91b51qfr7r.cloudfront.net/profile/null",
+          "userKey": "UID_d8aeead2-452a-4073-a6ab-36b91f841bea"
+        },
+        "privacy": "PUBLIC",
+        "listDocumentFeatured": [
+          {
+            "documentType": "REPORT",
+            "parentDocDetail": {
+              "_id": "102-N5195839124488787069",
+              "_ml_keyword": "",
+              "_ml_summary": "",
+              "briefing_page_id": [
+                "BPID_ded091b0-3ebd-4012-8f1a-d9aa90b0def8"
+              ],
+              "created_at": "20250825091233",
+              "doc_type": 4.0,
+              "image_uri_thumbnail": "https://dqrvsa6iqgtew.cloudfront.net/report-image-prod/2025-08/0d994bf3-72a2-4d18-97fb-d9530a6d5019.jpg",
+              "is_deleted": false,
+              "is_group": false,
+              "is_inside_group": false,
+              "media_type": [
+                "REPORT",
+                "DAILY"
+              ],
+              "modified_at": "20250825091233",
+              "parent_doc_id": [
+                "go-public-report-en-d1cbdc9e-9eb1-4be1-ac3b-967a3f623261-0-0"
+              ],
+              "published_at": "20250825091233",
+              "search_type": [
+                "REPORT"
+              ],
+              "service_language": "ENGLISH",
+              "similar_hash": "26631135733",
+              "source_summary": "As of August 25, 2025, South Korea's energy sector stands at a pivotal moment characterized by complex challenges and transformative opportunities. The ongoing juxtaposition of U.S. tariffs on high-voltage transformers and the country's reliance on fossil fuels continues to shape the industry's landscape. However, the commitment to a robust renewable energy pipeline, bolstered by strategic technological collaborations, remains evident. This analytical overview delves into key infrastructure pressures and assesses South Korea's initiatives under the 5th Basic Plan for Renewable Energy, which ambitiously seeks to elevate renewable sources to 22.2% by 2034. Numerically, as part of this plan, the Renewable Portfolio Standard is designed to hold energy generators accountable for transitioning towards cleaner sources, reflecting a substantial shift in policy that is essential for achieving carbon neutrality targets.",
+              "source_uri": "https://goover.ai/report-detail/go-public-report-en-d1cbdc9e-9eb1-4be1-ac3b-967a3f623261-0-0",
+              "source_uri_domain": "go-public-report-en-d1cbdc9e-9eb1-4be1-ac3b-967a3f623261-0-0",
+              "title": "Navigating South Korea’s Energy Landscape: Infrastructure, Renewables, and Workforce Challenges",
+              "user_key": "UID_d8aeead2-452a-4073-a6ab-36b91f841bea",
+              "writer": [
+                "Goover"
+              ],
+              "owner_user_key": "UID_d8aeead2-452a-4073-a6ab-36b91f841bea",
+              "collected_quality": 1.0,
+              "private_type": "PUBLIC",
+              "acl_role": [
+                "PUBLIC"
+              ],
+              "request_id": "schedule_report_1066020_64669ab6-dd7a-4818-bdda-06cbc31dbb7b",
+              "html_raw_size": 47228.0,
+              "text_size": 30972.0
+            },
+            "requestId": "schedule_report_1066020_64669ab6-dd7a-4818-bdda-06cbc31dbb7b",
+            "_id": "102-N5195839124488787069",
+            "user_key": "UID_d8aeead2-452a-4073-a6ab-36b91f841bea",
+            "briefing_page_id": "BPID_ded091b0-3ebd-4012-8f1a-d9aa90b0def8",
+            "published_at": "2025-08-25T09:12:33.000+00:00"
+          },
+          {
+            "documentType": "REPORT",
+            "parentDocDetail": {
+              "_id": "102-N3325063528459227379",
+              "_ml_keyword": "",
+              "_ml_summary": "",
+              "briefing_page_id": [
+                "BPID_ded091b0-3ebd-4012-8f1a-d9aa90b0def8"
+              ],
+              "created_at": "20250815091223",
+              "doc_type": 4.0,
+              "image_uri_thumbnail": "https://dqrvsa6iqgtew.cloudfront.net/report-image-prod/2025-08/0a22dff7-8e73-4be3-924a-9420faecb839.jpg",
+              "is_deleted": false,
+              "is_group": false,
+              "is_inside_group": false,
+              "media_type": [
+                "REPORT",
+                "DAILY"
+              ],
+              "modified_at": "20250815091223",
+              "parent_doc_id": [
+                "go-public-report-en-ce726cab-8f04-4e33-9331-4ff24769ab44-0-0"
+              ],
+              "published_at": "20250815091223",
+              "search_type": [
+                "REPORT"
+              ],
+              "service_language": "ENGLISH",
+              "similar_hash": "23951154016",
+              "source_summary": "As Korea Electric Power Corporation (KEPCO) accelerates its modernization of transmission and distribution (T&D) networks in response to the urgent demands of global decarbonization and rapid technological advancements, it faces a critical need to align its talent strategies with emerging industry requirements. The current shifts in the energy landscape are being driven by a multitude of technological trends, including advancements in seawater electrolysis for hydrogen production, integrated heat pump and electric vehicle (EV) charging systems, as well as the deployment of invigorated high-frequency communications and sophisticated energy management solutions. A comprehensive analysis of these trends reflects the impact of digital transformation on workforce structures, as KEPCO must learn from successful international reskilling initiatives to jumpstart its efforts in skill development. By identifying targeted competencies and innovative recruitment approaches, KEPCO aims to secure the specialized talent needed to build a resilient and future-proof energy grid that can withstand the challenges posed by the ongoing energy transition.",
+              "source_uri": "https://goover.ai/report-detail/go-public-report-en-ce726cab-8f04-4e33-9331-4ff24769ab44-0-0",
+              "source_uri_domain": "go-public-report-en-ce726cab-8f04-4e33-9331-4ff24769ab44-0-0",
+              "title": "Future-Ready Workforce: Key Skills and Roles for Korea Electric Power Corporation’s Transmission and Distribution Amid Energy Transition",
+              "user_key": "UID_d8aeead2-452a-4073-a6ab-36b91f841bea",
+              "writer": [
+                "Goover"
+              ],
+              "owner_user_key": "UID_d8aeead2-452a-4073-a6ab-36b91f841bea",
+              "collected_quality": 1.0,
+              "private_type": "PUBLIC",
+              "acl_role": [
+                "PUBLIC"
+              ],
+              "request_id": "schedule_report_1066019_34f4dc35-6143-4939-bfa3-d264676ae988",
+              "html_raw_size": 53411.0,
+              "text_size": 34037.0
+            },
+            "requestId": "schedule_report_1066019_34f4dc35-6143-4939-bfa3-d264676ae988",
+            "_id": "102-N3325063528459227379",
+            "user_key": "UID_d8aeead2-452a-4073-a6ab-36b91f841bea",
+            "briefing_page_id": "BPID_ded091b0-3ebd-4012-8f1a-d9aa90b0def8",
+            "published_at": "2025-08-15T09:12:23.000+00:00"
+          },
+          {
+            "documentType": "DISCOVERY",
+            "parentDocDetail": {
+              "_id": "83-N8323292836620597397",
+              "_ml_keyword": "",
+              "_ml_summary": "",
+              "briefing_page_id": [
+                "BPID_ded091b0-3ebd-4012-8f1a-d9aa90b0def8"
+              ],
+              "created_at": "20250803141620",
+              "doc_type": 2.0,
+              "image_uri_thumbnail": "https://community.nasscom.in/themes/custom/nasscom_community/images/default-page-share.jpeg",
+              "is_deleted": false,
+              "is_group": false,
+              "is_inside_group": false,
+              "media_type": [
+                "WEB"
+              ],
+              "modified_at": "20250803141620",
+              "parent_doc_id": [
+                "go-public-web-eng-7595583864882687471-0-0"
+              ],
+              "published_at": "20250803122109",
+              "search_type": [
+                "WEB"
+              ],
+              "service_language": "ENGLISH",
+              "similar_hash": "6859988018069657541",
+              "source_summary": "Industry 4.0, the fourth industrial revolution, is driving unprecedented and exponential growth in companies' design, manufacture, distribution, and products. Overcoming manual supply chain challenges is possible through the implementation of a digital supply chain. Digital transformation is integrating advanced digital solutions in your logistics and supply chain applications to reimagine and optimize internal processes and customer experience. Big data analytics helps businesses examine large volumes of data collected along the journey of a product to uncover hidden patterns, correlations, and trends that are simply too unwieldy to do manually. Keeping in mind the sales volume, companies are making a lot of digital supply network initiatives. Hence transforming the manual supply chain to a digital supply chain is a wise initiative nowadays for growing manufacturing and retail businesses.",
+              "source_uri": "https://community.nasscom.in/communities/spotlight/embracing-digital-supply-chain-revolution",
+              "source_uri_domain": "",
+              "title": "Embracing Digital Supply Chain Revolution | nasscom | The Official Community of Indian IT Industry",
+              "user_key": "UID_d8aeead2-452a-4073-a6ab-36b91f841bea",
+              "writer": [
+                ""
+              ],
+              "owner_user_key": "PUBLIC",
+              "collected_quality": 1.0,
+              "isBatchData": true,
+              "collector": "MS"
+            },
+            "_id": "83-N8323292836620597397",
+            "user_key": "UID_d8aeead2-452a-4073-a6ab-36b91f841bea",
+            "briefing_page_id": "BPID_ded091b0-3ebd-4012-8f1a-d9aa90b0def8",
+            "published_at": "2025-08-03T12:21:09.000+00:00"
+          }
+        ],
+        "bpId": "BPID_ded091b0-3ebd-4012-8f1a-d9aa90b0def8",
+        "briefingPageName": "Success of Non-Majors in Korean Electric Power Company Employment: Case Study and Key Success Factor",
+        "bpType": "BRIEFING_PAGE",
+        "status": "ENABLED",
+        "modifyDate": "2025-08-25T09:12:33.312+00:00",
+        "createdDate": "2025-07-31T08:57:52.494+00:00",
+        "imageUri": "https://dzh91b51qfr7r.cloudfront.net/screen-shot-bp/BPID_ded091b0-3ebd-4012-8f1a-d9aa90b0def8.png",
+        "subscribeCount": 0,
+        "subscribeStatus": "UN_SUBSCRIBE",
+        "briefingDescription": "This report examines the case of an individual without a relevant major successfully securing employment at the Korean Electric Power Company (KEPCO) through possession of job-related certifications. It explores the recruitment process that included written examinations and interviews, focusing on how the candidate leveraged certifications, non-major experience, and personal attributes. Key success factors identified include strategic preparation of application materials, effective utilization of certifications for credibility, and emphasis on practical problem-solving abilities during interviews."
+      }
+    ],
+    "loadMore": false
+  }
+}
