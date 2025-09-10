@@ -2,6 +2,8 @@ package spring.learning.session7.stream_api;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -30,5 +32,16 @@ class DishTest {
                 .limit(3)
                 .toList();
         assertEquals(threeHighCaloricDishNames, List.of("pork", "beef", "chicken"));
+    }
+
+    @Test
+    public void externalIterationUsingIterator() {
+        List<String> names = new ArrayList<>();
+        Iterator<Dish> iterator = menu.iterator();
+        while (iterator.hasNext()) {
+            Dish d = iterator.next();
+            names.add(d.getName());
+        }
+        names.forEach(System.out::println);
     }
 }
