@@ -24,7 +24,6 @@ class DishTest {
 
     @Test
     public void threeHighCaloriesFood() {
-
         List<String> threeHighCaloricDishNames = menu
                 .stream()
                 .filter(d -> d.getCalories() > 300)
@@ -49,5 +48,15 @@ class DishTest {
     public void iternalIterationUsingStream() {
         List<String> names = menu.stream().map(Dish::getName).toList();
         names.forEach(System.out::println);
+    }
+
+    @Test
+    public void getVegetarianDishes() {
+        List<String> vegetarianDishes =
+                menu.stream()
+                        .filter(Dish::isVegetarian)
+                        .map(Dish::getName)
+                        .toList();
+        vegetarianDishes.forEach(System.out::println);
     }
 }
