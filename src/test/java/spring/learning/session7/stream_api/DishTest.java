@@ -44,4 +44,10 @@ class DishTest {
         }
         names.forEach(System.out::println);
     }
+
+    @Test
+    public void iternalIterationUsingStream() {
+        List<String> names = menu.stream().map(Dish::getName).toList();
+        names.forEach(System.out::println);
+    }
 }
