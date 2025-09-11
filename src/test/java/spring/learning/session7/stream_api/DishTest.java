@@ -1,5 +1,6 @@
 package spring.learning.session7.stream_api;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -62,5 +63,11 @@ class DishTest {
                         .map(Dish::getName)
                         .toList();
         vegetarianDishes.forEach(System.out::println);
+    }
+
+    @Test
+    @DisplayName("is there vegetarian food? ")
+    public void findVegetarianFood() {
+        assertTrue(menu.stream().anyMatch(Dish::isVegetarian));
     }
 }
